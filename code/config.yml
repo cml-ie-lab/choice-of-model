@@ -1,0 +1,118 @@
+base_year: 2010
+
+countries:
+  - ['Austria', 'AT']
+  - ['Belgium', 'BE']
+  - ['Bulgaria', 'BG']
+  - ['Cyprus', 'CY']
+  - ['Denmark', 'DK']
+  - ['Estonia', 'EE']
+  - ['Greece', 'EL']
+  - ['Spain', 'ES']
+  - ['Finland', 'FI']
+  - ['France', 'FR']
+  - ['Croatia', 'HR']
+  - ['Hungary', 'HU']
+  - ['Italy', 'IT']
+  - ['Netherlands', 'NL']
+  - ['Portugal', 'PT']
+  - ['Slovenia', 'SI']
+  - ['Slovakia', 'SK']
+
+nope:
+  - ['Czech Republic', 'CZ']
+  - ['Lithuania', 'LT']
+  - ['Poland', 'PL']
+  - ['Sweden', 'SE']
+  - ['United Kingdom', 'UK']
+
+data_dir: '../data/'
+
+results_dir: '../result/'
+
+classifications_data_dir: '../classifications/'
+
+classifications_filename: 'classifications.xlsx'
+
+concordance_filename: 'concordance.xlsx'
+
+env_extensions_filename: 'env_ac_ainah_r2.xlsx'
+
+substances:
+  - ['Carbon dioxide', 'Tonne']
+  - ['Methane', 'Tonne']
+  - ['Nitrous oxide', 'Tonne']
+  - ['Hydrofluorocarbones',  'Tonne CO2 equivalent']
+  - ['Perfluorocarbones', 'Tonne CO2 equivalent']
+  - ['Sulphur hexafluoride and nitrogen trifluoride', 'Tonne CO2 equivalent']
+
+final_use_categories:
+  - [0, 'final consumption by households']
+  - [1, 'final consumption by non profit institutions serving households']
+  - [2, 'final consumption by government']
+  - [4, 'gross fixed capital formation']
+  - [7, 'Changes in inventories and valuables']
+  - [13, 'Exports of goods and services']
+
+value_added_categories:
+  - [7, 'gross value added']
+
+cif_fob_categories_range: 'A80:A80'
+
+direct_purchases_abroad_categories_range: 'A79:A79'
+
+tax_categories_range: 'A93:A93'
+
+purchases_non_residents_categories_range: 'A81:A81'
+
+product_categories_range: 'A13:A77'
+
+industry_categories_range: 'B12:BN12'
+
+finaluse_categories_range: 'BP12:CC12'
+
+value_added_categories_range: 'A83:A90'
+
+env_extensions_categories_range: 'A13:A18'
+
+supply_range: 'B13:BN77'
+
+domestic_use_range: 'B13:BN77'
+
+domestic_final_use_range: 'BP13:CC77'
+
+import_use_range: 'B13:BN77'
+
+final_import_use_range: 'BP13:CC77'
+
+cif_fob_range: 'BP80:CC80'
+
+tax_range: 'B93:BN93'
+
+final_tax_range: 'BP93:CC93'
+
+direct_purchases_abroad_range: 'BP79:CC79'
+
+purchases_non_residents_range: 'BP81:CC81'
+
+value_added_range: 'B83:BN90'
+
+env_extensions_range: 'B13:CN18'
+
+concordance_range: 'B2:BN92'
+
+industry_count: 65
+
+product_count: 65
+
+finaluse_count: 6
+
+value_added_count: 1
+
+tax_count: 1
+
+cif_fob_count: 1
+
+direct_purchases_count: 1
+
+purchases_non_residents_count: 1
