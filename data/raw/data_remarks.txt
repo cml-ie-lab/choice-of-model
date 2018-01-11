@@ -1,0 +1,35 @@
+
+Data sources:
+
+Supply tables:
+Title: Supply table at basic prices incl. transformation into purchasers' prices
+Code:  naio_10_cp15
+Last update of data: 17/08/2017
+Last table structure change: 10/05/2017
+
+
+Use tables
+Title:	Use table at basic prices
+Code:	naio_10_cp1610	 	 
+Last update of data: 17/08/2017	 	 
+Last table structure change: 17/08/2017
+
+
+
+Excluded countries:
+RO diagonal supply table
+IE confidential data
+DE confidential data
+LU no data
+LV no use table at basic price
+MT very little data
+
+
+Good product with lots of co-products that is also in itself a large group:
+
+Wholesale trade services, except of motor vehicles and motorcycles
+NL, 2010, 61258 Euro main, 15668 Euro off diagonal, i.e. 20.4%
+rij 28 
+
+
+
